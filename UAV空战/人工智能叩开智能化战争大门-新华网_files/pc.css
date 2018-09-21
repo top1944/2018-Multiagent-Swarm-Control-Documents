@@ -1,0 +1,441 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+body {
+	background: rgb(255, 255, 255); font-family: "ËÎÌå"; font-size: 14px; font-weight: normal; -webkit-text-size-adjust: 100%;
+}
+* {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; font-style: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-touch-callout: none;
+}
+nav {
+	display: block;
+}
+footer {
+	display: block;
+}
+section {
+	display: block;
+}
+header {
+	display: block;
+}
+article {
+	display: block;
+}
+ul {
+	list-style: none;
+}
+a:link {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+a:visited {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+a:hover {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+a:active {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+input {
+	border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;
+}
+textarea {
+	border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;
+}
+button {
+	border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;
+}
+.clear {
+	clear: both;
+}
+.clearfix {
+	display: block;
+}
+.clearfix::after {
+	margin: 0px; padding: 0px; width: 100%; height: 0px; overflow: hidden; clear: both; font-size: 0px; display: block; content: "";
+}
+.domPC {
+	display: none;
+}
+.domMobile {
+	display: none;
+}
+#asideRight {
+	height: 2600px !important;
+}
+@media only screen and (max-device-width:1024px) and (min-device-width:768px)
+{
+#article {
+	margin: 0px !important;
+}
+#aside {
+	display: none !important;
+}
+.adIframeLazy {
+	display: none !important;
+}
+#nc_icon {
+	display: none !important;
+}
+}
+#pcHeader {
+	background: rgb(20, 110, 186); margin: 0px auto; height: 35px; line-height: 49px; border-bottom-color: rgb(18, 100, 164); border-bottom-width: 1px; border-bottom-style: solid; min-width: 768px; max-width: 100%;
+}
+#pcHeader .con {
+	margin: 0px auto; min-width: 768px; max-width: 1000px;
+}
+#pcHeader .nav {
+	overflow: hidden; padding-top: 10px; float: left;
+}
+#pcHeader .nav a {
+	padding: 0px 8px; height: 14px; color: rgb(255, 255, 255); line-height: 14px; font-family: "ËÎÌå"; font-size: 14px; border-right-color: rgb(4, 92, 152); border-left-color: rgb(16, 139, 189); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; float: left;
+}
+#pcHeader .nav a.first {
+	border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+#pcHeader .nav a.last {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+#headerTitle {
+	background: rgb(250, 250, 250); text-align: left; border-bottom-color: rgb(232, 232, 232); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#articleTit {
+	margin: 0px auto; text-align: left; padding-top: 20px; min-width: 768px; max-width: 1000px;
+}
+#articleTit .crumbs {
+	width: 100%; margin-top: 15px; margin-bottom: 10px; display: inline-block !important;
+}
+#articleTit .crumbs .search {
+	float: right; position: relative;
+}
+#articleTit .crumbs .search .ss {
+	background: url("imgs/xl_common_v2.png") no-repeat 0px 0px; padding: 0px 31px 0px 10px; border: currentColor; border-image: none; width: 173px; height: 33px; color: rgb(153, 153, 153); line-height: 26px;
+}
+#articleTit .crumbs .search .ss_submit {
+	background: url("http://www.xinhuanet.com/images/syicon/space.gif"); border: currentColor; border-image: none; top: 1px; width: 30px; height: 30px; right: 1px; position: absolute; z-index: 99; cursor: pointer;
+}
+#article h1 {
+	padding: 2px 0px; text-align: left; line-height: 50px; clear: both; font-family: "Î¢ÈíÑÅºÚ"; font-size: 26px; font-weight: normal; float: none;
+}
+#articleTit .logo {
+	background: url("imgs/xl_common_v2.png") no-repeat 0px -45px; width: 150px; height: 40px; margin-left: 10px; float: left;
+}
+#articleTit .curDiv {
+	height: 40px; line-height: 40px; font-size: 14px; float: left;
+}
+#articleTit .curDiv span {
+	display: inline-block;
+}
+#articleTit .info .comment .line02 a {
+	padding: 0px !important;
+}
+#article .info {
+	padding: 5px 10px 0px; color: rgb(141, 141, 141); overflow: hidden; clear: both; font-size: 14px;
+}
+#article .info span {
+	color: rgb(141, 141, 141); padding-right: 10px; font-size: 14px; display: inline-block;
+}
+#article .info .source {
+	padding-top: 5px; float: left;
+}
+#article .info i {
+	padding-right: 10px; display: inline-block;
+}
+#article .info .comment {
+	height: 38px; line-height: 38px; float: right;
+}
+#article .info .comment li {
+	left: 0px; width: 34px; height: 38px; overflow: hidden; margin-left: 5px; float: left; position: relative;
+}
+#article .info .comment .scrollDiv {
+	left: 0px; top: 0px; width: 34px; height: 76px; position: absolute;
+}
+#article .info .comment .bdsharebuttonbox {
+	float: left;
+}
+#article .info .comment .line01 {
+	background: url("imgs/xl_common_v2.png") no-repeat; width: 34px; height: 38px; cursor: pointer;
+}
+#articleTit .info .comment .line02 {
+	background: url("imgs/xl_common_v2.png") no-repeat; width: 34px; height: 38px; cursor: pointer;
+}
+#article .info .comment a {
+	width: 34px; height: 37px; text-align: center; line-height: 30px; font-size: 12px; display: block;
+}
+#article .info .comment .pl .line01 {
+	background-position: 0px -100px; width: auto;
+}
+#article .info .comment .share .line01 {
+	background-position: -34px -100px; width: auto;
+}
+#article .info .comment .fx .line01 {
+	background-position: -36px -100px; margin: 0px;
+}
+#article .info .comment .sc .line01 {
+	background-position: -70px -100px;
+}
+#article .info .comment .dy .line01 {
+	background-position: -106px -100px;
+}
+#article .info .comment .fd .line01 {
+	background-position: -140px -100px;
+}
+#article .info .comment .sx .line01 {
+	background-position: -176px -100px;
+}
+#article .info .comment .line02 {
+	margin: 0px; text-align: center; color: rgb(249, 101, 96); line-height: 18px; text-indent: 0px !important; font-size: 16px;
+}
+#articleTit .info .comment .line02 a {
+	margin: 0px; text-align: center; color: rgb(249, 101, 96); line-height: 18px; text-indent: 0px !important; font-size: 16px;
+}
+#article .info .comment .line02 {
+	height: 37px;
+}
+#article .info .comment .pl .line02 {
+	
+}
+#article .info .comment .pl .line02 {
+	color: rgb(128, 214, 93);
+}
+#articleTit .info .comment .pl .line02 a {
+	color: rgb(128, 214, 93);
+}
+#article .info .comment .share .line02 {
+	
+}
+#article .info .comment .share .line02 a {
+	color: rgb(249, 102, 94);
+}
+#article .info .comment .dy .line02 {
+	
+}
+#article .info .comment .dy .line02 a {
+	color: rgb(93, 196, 245);
+}
+#article .info .comment .fd .line02 {
+	
+}
+#article .info .comment .fd .line02 a {
+	color: rgb(253, 185, 54);
+}
+#article .info .comment .sx .line02 {
+	
+}
+#article .info .comment .sx .line02 a {
+	color: rgb(64, 143, 197);
+}
+#article .info .comment #wyhs {
+	display: none !important;
+}
+#article .picLink {
+	margin: 0px auto; width: 562px; text-align: right; color: rgb(9, 124, 179); font-size: 12px;
+}
+#article .picLink a {
+	color: rgb(9, 124, 179); font-size: 12px;
+}
+.combox .title {
+	height: 40px; color: rgb(19, 129, 182); line-height: 40px; padding-left: 100px; margin-bottom: 15px; position: relative;
+}
+.combox .title h3 {
+	left: 0px; top: 0px; color: rgb(56, 56, 56); font-family: "Î¢ÈíÑÅºÚ"; font-size: 16px; font-weight: bold; position: absolute;
+}
+.combox .title span {
+	margin-right: 8px;
+}
+.combox .title span a {
+	padding: 5px 10px; border: 1px solid rgb(223, 222, 220); border-image: none; color: rgb(146, 146, 146); font-family: "ËÎÌå"; font-size: 12px;
+}
+.combox .title span a:hover {
+	background: rgb(48, 150, 232); color: rgb(255, 255, 255); text-decoration: none;
+}
+.comlist li {
+	line-height: 33px; padding-left: 15px; position: relative;
+}
+.comlist li i {
+	background: url("imgs/xl_common_v2.png") no-repeat -213px -510px; left: 0px; top: 10px; width: 8px; height: 8px; position: absolute;
+}
+.comlist li a {
+	color: rgb(48, 48, 48); font-size: 16px;
+}
+.comlist li strong {
+	font-weight: bold;
+}
+#videoArea {
+	margin: 0px auto; width: 562px; height: 439px; text-align: center; position: relative;
+}
+#videoArea img {
+	cursor: pointer;
+}
+#videoArea iframe {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 999;
+}
+#popularNews {
+	margin-bottom: 35px;
+}
+#popularNews .left {
+	width: 275px; float: left;
+}
+#popularNews .right {
+	width: 380px; float: right;
+}
+#relatedNews {
+	margin-bottom: 35px;
+}
+#relatedNews .tit1 {
+	border: currentColor; border-image: none; left: 0px; top: 0px; color: rgb(107, 107, 107); cursor: pointer;
+}
+#relatedNews .tit2 {
+	border: currentColor; border-image: none; left: 120px; top: 0px; color: rgb(107, 107, 107); cursor: pointer;
+}
+#relatedNews .on {
+	color: rgb(19, 129, 182); border-bottom-color: rgb(239, 9, 9); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#center {
+	margin: 0px auto; padding: 20px 0px; position: relative; min-width: 768px; max-width: 1000px;
+}
+#aside {
+	width: 300px; margin-right: 10px; float: right;
+}
+#article {
+	overflow: hidden; font-family: "ËÎÌå"; margin-right: 340px; position: relative;
+}
+#towCode {
+	left: 50%; top: 320px; width: 100px; height: 270px; margin-left: 502px; position: fixed;
+}
+.ewm_fortune {
+	background: url("http://www.xinhuanet.com/fortune/2015/images/xh_cj_twoCode.jpg") no-repeat;
+}
+#towCode .closeBtn {
+	left: 0px; height: 20px; bottom: -20px; line-height: 20px; margin-left: 10px; position: absolute; cursor: pointer;
+}
+.article {
+	padding: 10px;
+}
+.article {
+	line-height: 32px; font-size: 16px;
+}
+.article p {
+	line-height: 32px; font-size: 16px;
+}
+.article p {
+	color: rgb(57, 57, 57); margin-bottom: 10px;
+}
+.article p a {
+	font-size: 16px;
+}
+.article p strong {
+	font-size: 16px; font-weight: bold;
+}
+.article p img {
+	
+}
+#share {
+	padding: 0px 10px; height: 45px; text-align: right;
+}
+#share .bdsharebuttonbox {
+	display: inline-block;
+}
+#articleEdit {
+	margin: 0px 10px 20px; padding: 30px 0px 10px; text-align: right;
+}
+#articleEdit .closeA {
+	height: 32px; line-height: 32px; display: inline-block;
+}
+#articleEdit .printA {
+	height: 32px; line-height: 32px; display: inline-block;
+}
+#articleEdit .editor {
+	height: 32px; line-height: 32px; display: inline-block;
+}
+#articleEdit .editor {
+	color: rgb(153, 153, 153);
+}
+#articleEdit .xwApp {
+	height: 18px; color: rgb(249, 101, 96); line-height: 18px; font-size: 14px; font-weight: bold; vertical-align: middle; display: inline-block; position: relative;
+}
+#articleEdit .xwApp i {
+	background: url("imgs/xl_common_v2.png") no-repeat -170px -45px rgb(247, 247, 247); width: 10px; height: 18px; margin-right: 5px; vertical-align: middle; display: inline-block;
+}
+#articleEdit .xwApp img {
+	left: -100px; bottom: 0px; display: none; position: absolute;
+}
+#articleEdit .xwApp:hover img {
+	display: block !important;
+}
+#footer {
+	background: rgb(48, 48, 48); padding: 20px; border-top-color: rgb(219, 218, 218); border-top-width: 1px; border-top-style: solid;
+}
+#footer p {
+	text-align: center; color: rgb(255, 255, 255); line-height: 18px; font-family: "ËÎÌå"; font-size: 14px;
+}
+#returnTop {
+	background: url("http://www.xinhuanet.com/2015/xilan/xh_cj_icon.png") no-repeat 0px 0px; width: 30px; height: 30px; right: 10px; bottom: 10px; display: none; position: fixed;
+}
+#nc_icon {
+	top: 320px; color: rgb(255, 255, 255);
+}
+#nc_icon:hover {
+	color: rgb(51, 51, 51);
+}
+#aside .info {
+	height: 3120px !important;
+}
+#Xfuchaung iframe {
+	right: 0px; bottom: 0px; position: fixed; z-index: 500;
+}
+.yjfx {
+	background: url("imgs/xl_common_v2.png") no-repeat -68px -494px; left: -40px; top: 35px; width: 33px; height: 100px; position: absolute;
+}
+.yjfxImg {
+	left: 50%; top: 235px; width: 100px; height: 100px; text-align: center; color: rgb(141, 141, 141); line-height: 14px; font-size: 14px; margin-left: -610px; position: fixed;
+}
+.yjfxImg img {
+	width: 100px; height: 100px;
+}
+#videoArea {
+	margin-bottom: 20px; display: none;
+}
+.domPC {
+	display: block;
+}
+#wyhs_num {
+	padding: 0px !important; color: rgb(0, 0, 0); font-size: 12px;
+}
+.tiyi1 {
+	position: relative; z-index: 100;
+}
+.tiyi1 .tiyi01 {
+	left: -445px; top: 25px; width: 600px; height: 342px; visibility: visible; position: absolute; background-color: rgb(255, 255, 255);
+}
+.tiyi1 .tiyi03 {
+	background: url("http://www.xinhuanet.com/images/syicon/space.gif") no-repeat 0px -131px; left: 570px; top: 2px; width: 24px; height: 24px; position: absolute;
+}
+.tiyi1 .advise {
+	color: rgb(138, 0, 0); cursor: pointer;
+}
+.tiyi1 .advise2 {
+	color: rgb(138, 0, 0); cursor: pointer;
+}
+.silderIframe {
+	top: 200px; right: 5px; position: fixed;
+}
+#div_currpage a {
+	background: rgb(249, 249, 249); margin: 5px 0px; padding: 3px 8px; border: 1px solid rgb(204, 204, 204); border-image: none; color: rgb(0, 0, 0); font-size: 14px; display: inline-block;
+}
+#div_currpage span {
+	background: rgb(249, 249, 249); margin: 5px 0px; padding: 3px 8px; border: 1px solid rgb(204, 204, 204); border-image: none; color: rgb(0, 0, 0); font-size: 14px; display: inline-block;
+}
+#div_currpage span.page-Article {
+	border: 1px solid rgb(20, 110, 186); border-image: none;
+}
+#videoArea .onPlay {
+	left: 0px; top: auto; width: 280px; height: 200px; bottom: 0px; position: fixed; z-index: 9999;
+}

@@ -1,0 +1,240 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+body {
+	background: rgb(255, 255, 255); font-family: "ËÎÌå"; -webkit-text-size-adjust: 100%;
+}
+* {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; font-size: 14px; font-style: normal; font-weight: normal; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-touch-callout: none;
+}
+nav {
+	display: block;
+}
+footer {
+	display: block;
+}
+section {
+	display: block;
+}
+header {
+	display: block;
+}
+article {
+	display: block;
+}
+ul {
+	list-style: none;
+}
+a:link {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+a:visited {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+a:hover {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+a:active {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+input {
+	border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;
+}
+textarea {
+	border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;
+}
+button {
+	border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;
+}
+.clear {
+	clear: both;
+}
+.clearfix {
+	display: block;
+}
+.clearfix::after {
+	margin: 0px; padding: 0px; width: 100%; height: 0px; overflow: hidden; clear: both; font-size: 0px; display: block; content: "";
+}
+.main {
+	width: 300px;
+}
+.partSpace {
+	margin-bottom: 30px;
+}
+.combox .title {
+	height: 40px; text-align: right; color: rgb(166, 166, 166); line-height: 40px; margin-bottom: 10px; border-bottom-color: rgb(45, 45, 45); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.combox .title * {
+	vertical-align: middle;
+}
+.combox .title a {
+	color: rgb(166, 166, 166); font-family: "ËÎÌå"; font-size: 12px; vertical-align: middle;
+}
+.combox .title a i {
+	background: url("imgs/xl_common_v2.png") 0px -156px; width: 12px; height: 12px; margin-left: 5px; vertical-align: middle; display: inline-block;
+}
+.combox .title h2 {
+	left: 0px; top: 0px; color: rgb(56, 56, 56); font-family: "Î¢ÈíÑÅºÚ"; font-size: 16px; position: absolute;
+}
+.list li {
+	height: 30px; line-height: 30px; overflow: hidden;
+}
+.list_pic li {
+	margin: 0px 6px 6px 0px; border: 1px solid rgb(229, 229, 229); border-image: none; width: 145px; height: 109px; float: left;
+}
+.list_pic li img {
+	width: 145px; height: 109px;
+}
+.list_pic li a {
+	width: 145px; height: 109px; display: block; position: relative;
+}
+.list_pic li .bg {
+	background: rgb(0, 0, 0); left: 0px; width: 100%; height: 20px; bottom: 0px; position: absolute; opacity: 0.7; -moz-opacity: 0.7;
+}
+.list_pic li .text {
+	padding: 0px 5%; left: 0px; width: 90%; height: 20px; text-align: center; bottom: 0px; color: rgb(255, 255, 255); line-height: 18px; overflow: hidden; font-size: 12px; position: absolute;
+}
+.list_pic li .text a {
+	width: auto; height: 20px; color: rgb(255, 255, 255); line-height: 20px; font-size: 12px; display: block;
+}
+.list_pic li i {
+	background: url("http://www.xinhuanet.com/2015/fortune/xilan/xl_common_v2.png") no-repeat 100% -266px; width: 22px; height: 22px; right: 0px; bottom: 0px; position: absolute; z-index: 5;
+}
+#pdtjList {
+	width: 306px;
+}
+#pdtjList1 {
+	width: 306px;
+}
+.sp_pic dt a {
+	background: url("imgs/xl_common_v2.png") no-repeat -216px -616px; padding: 4px 0px 4px 30px; height: 30px; line-height: 30px; overflow: hidden; font-size: 14px;
+}
+.sp_pic dd {
+	overflow: hidden;
+}
+.sp_pic dd img {
+	width: 300px; height: 170px; margin-right: 10px; display: inline;
+}
+.sp_pic dd .line {
+	background: url("http://www.xinhuanet.com/2015/fortune/xilan/xl_common_v2.png") repeat-x 0px -37px; height: 8px; margin-top: 8px;
+}
+#djph h2 {
+	margin-bottom: 0px;
+}
+#djphList {
+	
+}
+#djphList li {
+	height: 32px; overflow: hidden; padding-left: 20px; white-space: nowrap; position: relative; -ms-text-overflow: ellipsis;
+}
+#djphList li i {
+	background: url("imgs/bg_paihang.gif") no-repeat 0px 0px; left: 0px; top: 8px; width: 16px; height: 16px; text-align: center; color: rgb(255, 255, 255); line-height: 16px; position: absolute;
+}
+#djphList li .i1 {
+	background-position: 0px 0px;
+}
+#djphList li .i2 {
+	background-position: 0px -31px;
+}
+#djphList li .i3 {
+	background-position: 0px -63px;
+}
+#djphList li .i4 {
+	background-position: 0px -95px;
+}
+#djphList li .i5 {
+	background-position: 0px -127px;
+}
+#djphList li .i6 {
+	background-position: 0px -159px;
+}
+#djphList li .i7 {
+	background-position: 0px -191px;
+}
+#djphList li .i8 {
+	background-position: 0px -223px;
+}
+#djphList li a {
+	color: rgb(58, 58, 58); line-height: 32px; font-size: 14px;
+}
+.rsb h2 span {
+	color: rgb(153, 153, 153); font-size: 12px; float: right;
+}
+.rsb h2 span a {
+	color: rgb(153, 153, 153); font-size: 12px;
+}
+.rsb .con {
+	padding: 10px 0px; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+.rsb .con li {
+	width: 130px; height: 30px; line-height: 30px; padding-left: 12px; float: left;
+}
+#pdtj {
+	margin-bottom: 15px;
+}
+#pdtj .con {
+	
+}
+#pdtj .sp_pic dt {
+	height: 50px; line-height: 50px; border-bottom-color: rgb(234, 234, 234); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+#pdtj .sp_pic dd {
+	
+}
+#pdtj .sp_pic dt a {
+	background: none; margin-left: 40px;
+}
+#pdtj .sp_pic dt.on {
+	height: 75px;
+}
+#pdtj .sp_pic dt.on a {
+	color: rgb(0, 0, 0); line-height: 75px; font-weight: bold; margin-left: 80px;
+}
+#pdtj .sp_pic dt span {
+	background: url("imgs/xl_common_v2.png") no-repeat -88px -179px; left: 5px; top: 15px; height: 20px; line-height: 20px; padding-left: 15px; font-size: 18px; font-weight: bold; position: absolute;
+}
+#pdtj .sp_pic dt.on span {
+	background: rgb(9, 124, 179); left: 0px; top: 0px; width: 75px; height: 75px; text-align: center; color: rgb(255, 255, 255); line-height: 75px; font-size: 40px;
+}
+#ad1 {
+	margin-bottom: 20px;
+}
+#ad3 {
+	margin-bottom: 20px;
+}
+#ad5 {
+	margin-bottom: 20px;
+}
+#ad4 {
+	margin-bottom: 30px;
+}
+.rsb {
+	margin-bottom: 30px;
+}
+#ad2 {
+	padding: 10px 0px; border: 1px solid rgb(204, 204, 204); border-image: none; margin-bottom: 20px;
+}
+#ad222 {
+	margin-bottom: 20px;
+}
+#pdtjList1 {
+	width: 306px;
+}
+.list_pic1 li {
+	margin: 0px 6px 6px 0px; border: 1px solid rgb(229, 229, 229); border-image: none; overflow: hidden; float: left; max-height: 109px; max-width: 145px;
+}
+.list_pic1 li a {
+	display: block; position: relative; max-height: 109px; max-width: 145px;
+}
+.list_pic1 li img {
+	max-height: 109px; max-width: 145px;
+}
+.list_pic1 li .bg {
+	background: rgb(0, 0, 0); left: 0px; width: 100%; bottom: 0px; position: absolute; max-height: 20px; opacity: 0.7; -moz-opacity: 0.7;
+}
+.list_pic1 li .text {
+	padding: 0px 5%; left: 0px; width: 90%; text-align: center; bottom: 0px; color: rgb(255, 255, 255); line-height: 18px; overflow: hidden; font-size: 12px; position: absolute; max-height: 20px;
+}

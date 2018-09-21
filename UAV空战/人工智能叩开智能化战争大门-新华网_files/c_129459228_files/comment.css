@@ -1,0 +1,198 @@
+.nc_clear::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.nc_ellipsis {
+	overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis; -o-text-overflow: ellipsis;
+}
+.nc_hide {
+	display: none;
+}
+.nc_box1 {
+	display: none;
+}
+.nc_box2 {
+	display: none;
+}
+.nc_box1 {
+	margin: 15px 0px; width: 640px; height: 26px; overflow: hidden; font-family: "ËÎÌå";
+}
+.nc_box1 {
+	
+}
+.nc_l {
+	height: 100%; float: left;
+}
+.nc_r {
+	height: 100%; float: left;
+}
+.nc_l {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(212, 212, 212) rgb(212, 212, 212) currentColor; border-image: none; width: 65px; text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-size: 14px; font-weight: bold;
+}
+.nc_r {
+	width: 570px; height: 25px; text-align: left; overflow: hidden; border-bottom-color: rgb(212, 212, 212); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.nc_tab {
+	background: rgb(245, 245, 245); border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(234, 234, 234) rgb(234, 234, 234) currentColor; padding: 0px 10px; border-image: none; height: 24px; margin-left: 10px; float: left; display: inline-block;
+}
+.nc_discuss {
+	color: rgb(0, 85, 153);
+}
+.nc_discuss span {
+	line-height: 25px; float: left;
+}
+.nc_box1 .nc_discuss:hover {
+	color: rgb(204, 0, 0);
+}
+.nc_discuss_bt {
+	font-size: 14px; font-weight: bold;
+}
+.nc_discuss_st {
+	font-size: 12px;
+}
+.nc_discuss_red {
+	color: rgb(204, 0, 0); font-size: 12px; display: inline-block; max-width: 90px;
+}
+.nc_ad {
+	color: rgb(0, 85, 153); line-height: 25px; font-size: 12px; float: right;
+}
+.nc_debate {
+	color: rgb(0, 85, 153); line-height: 25px; font-size: 12px; float: right;
+}
+.nc_ad:hover {
+	color: rgb(204, 0, 0);
+}
+.nc_debate:hover {
+	color: rgb(204, 0, 0);
+}
+.nc_ad {
+	display: inline-block; max-width: 260px;
+}
+.nc_debate {
+	font-weight: bold; margin-left: 20px;
+}
+.nc_box2 {
+	background: url("../img/nc_btm_bg.png") repeat-x; left: 0px; width: 100%; height: 38px; bottom: 0px; font-family: "Î¢ÈíÑÅºÚ"; position: fixed; z-index: 49;
+}
+.nc_scope {
+	margin: 0px auto; width: 1000px; height: 100%; position: relative;
+}
+.nc_close {
+	background: rgb(208, 220, 227); width: 38px; height: 100%; right: 0px; bottom: 0px; position: absolute; cursor: pointer;
+}
+.nc_close:hover {
+	background: rgb(87, 136, 170);
+}
+.nc_cross {
+	background: url("../img/nc_cross.png") no-repeat 0px 0px; left: 13px; top: 13px; width: 12px; height: 12px; position: absolute;
+}
+.nc_cross {
+	_background-image: url(../img/nc_ie6cross.png);
+}
+.nc_close:hover .nc_cross {
+	background-position: -12px 0px;
+}
+.nc_cross:hover {
+	background-position: -12px 0px;
+}
+.nc_num {
+	top: 0px; height: 100%; line-height: 38px; display: block; position: absolute;
+}
+.nc_input {
+	top: 0px; height: 100%; line-height: 38px; display: block; position: absolute;
+}
+.nc_user {
+	top: 0px; height: 100%; line-height: 38px; display: block; position: absolute;
+}
+.nc_num {
+	left: 0px; width: 175px; color: rgb(87, 136, 170);
+}
+.nc_num span {
+	float: right;
+}
+.nc_box2 .nc_num:hover {
+	color: rgb(238, 84, 42);
+}
+.nc_num_t {
+	font-size: 16px;
+}
+.nc_num .nc_num_n {
+	margin: 0px 3px; color: rgb(238, 84, 42); font-family: "Georgia"; font-size: 18px; display: inline-block; max-width: 85px;
+}
+.nc_input {
+	border-radius: 2px; border: 2px solid rgb(55, 155, 233); border-image: none; left: 195px; width: 510px; height: 34px; overflow: hidden;
+}
+.nc_input_i {
+	height: 100%; float: left;
+}
+.nc_input_b {
+	height: 100%; float: left;
+}
+.nc_input_i {
+	padding: 0px 5px; width: 405px; color: rgb(128, 128, 128); font-family: "Î¢ÈíÑÅºÚ"; font-size: 14px; vertical-align: middle;
+}
+.nc_input_i {
+	
+}
+.nc_input_i {
+	
+}
+.nc_input_i {
+	_width: 402px;
+}
+.nc_input {
+	_background: #5788a9;
+}
+.nc_input_b {
+	background: rgb(55, 155, 233); width: 95px; text-align: center; color: white; line-height: 34px; font-size: 18px; position: relative; cursor: pointer;
+}
+.nc_user {
+	width: 200px; right: 50px;
+}
+.nc_user span {
+	color: rgb(102, 102, 102); font-size: 16px; margin-left: 10px; float: left; cursor: pointer;
+}
+.nc_user a {
+	color: rgb(102, 102, 102); font-size: 16px; margin-left: 10px; float: left; cursor: pointer;
+}
+.nc_user_register:hover {
+	text-decoration: none !important;
+}
+.nc_user .nc_user_name {
+	display: inline-block; max-width: 140px;
+}
+.nc_user .nc_user_logout {
+	color: rgb(87, 136, 169);
+}
+* html .nc_box2 {
+	_width: auto; _position: absolute; _right: auto; _bottom: auto;
+}
+* html #nc_icon {
+	_position: absolute; _right: auto; _bottom: auto; _margin-top: 272px;
+}
+.comment-dialog .article .login .l-submit {
+	width: 95px;
+}
+.nc_icon {
+	background: rgb(55, 155, 233); padding: 3px 0px 0px 3px; border-radius: 3px; top: 267px; width: 55px; height: 50px; text-align: center; color: white; line-height: 23px; letter-spacing: 4px; font-family: "Î¢ÈíÑÅºÚ"; font-size: 16px; display: none; position: fixed; cursor: pointer;
+}
+.nc_icon:hover {
+	text-decoration: none !important;
+}
+#nc_icon {
+	
+}
+.nc_pic.nc_icon {
+	background: url("../img/float.png"); padding: 0px; width: 80px; height: 80px;
+}
+.wyhs_wrap {
+	
+}
+#wyhs_tip {
+	font-weight: bold;
+}
+#wyhs .wyhs_text {
+	color: rgb(0, 85, 153); vertical-align: middle;
+}
+#wyhs .wyhs_num {
+	color: rgb(204, 0, 0); vertical-align: middle; display: inline-block; max-width: 100px;
+}
