@@ -3,7 +3,7 @@ github上传命令
 cd C:\Users\top\Desktop\2018-多智能体-集群控制-文献
 git init
 git add .
-git commit -m "add new paper 20181102"
+git commit -m "add new paper 20181121"
 git remote add origin https://github.com/top1944/2018-Multiagent-Swarm-Control-Documents.git
 git push -u origin master
 
