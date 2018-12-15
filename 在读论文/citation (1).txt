@@ -1,0 +1,8 @@
+@article{周绍磊2016多无人机协同编队控制的研究现状与发展前景,
+  title={多无人机协同编队控制的研究现状与发展前景},
+  author={周绍磊 and 康宇航 and 万兵 and 周超 and 尹高阳 and 孙聪},
+  journal={飞航导弹},
+  number={1},
+  pages={78-83},
+  year={2016},
+}
